@@ -1,6 +1,6 @@
-const rootStyles = getComputedStyle(document.documentElement);
-const primaryColor = rootStyles.getPropertyValue("--primary").trim();
-console.log(primaryColor);
+const primaryColor = getComputedStyle(document.documentElement)
+  .getPropertyValue("--primary-color")
+  .trim();
 
 function initParticles() {
   particlesJS("particles", {
@@ -43,7 +43,7 @@ function initParticles() {
           mode: "repulse",
         },
         onclick: {
-          enable: true,
+          enable: false,
           mode: "push",
         },
         resize: true,
