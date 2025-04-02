@@ -1,3 +1,7 @@
+const rootStyles = getComputedStyle(document.documentElement);
+const primaryColor = rootStyles.getPropertyValue("--primary").trim();
+console.log(primaryColor);
+
 function initParticles() {
   particlesJS("particles", {
     particles: {
@@ -9,7 +13,7 @@ function initParticles() {
         },
       },
       color: {
-        value: "#e7c503",
+        value: primaryColor,
       },
       shape: {
         type: "circle",

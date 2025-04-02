@@ -1,3 +1,5 @@
+@import url("var.css");
+
 .hero {
   height: 100vh;
   display: flex;
@@ -15,15 +17,17 @@
   font-size: 5rem;
   margin-bottom: 2rem;
   line-height: 0.6em;
+  color: var(--text-color);
 }
 
 .hero p {
   font-size: 1.5rem;
+  color: var(--text-color);
 }
 
 #changing-word {
   transition: opacity 0.5s ease-in-out;
-  color: rgb(186, 0, 0);
+  color: var(--primary);
 }
 .fade-out {
   opacity: 0;

@@ -1,0 +1,48 @@
+@import url("var.css");
+
+header {
+  padding: 1.5rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  transition: background-color 0.3s ease;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #390606;
+  font-weight: 500;
+  font-size: 1.3em;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary);
+  transition: width 0.5s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
