@@ -27,9 +27,8 @@
   text-align: center;
 }
 
-#changing-word {
+.changing-word {
   transition: opacity 0.5s ease-in-out;
-  color: var(--primary-color);
 }
 .fade-out {
   opacity: 0;

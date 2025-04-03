@@ -153,6 +153,9 @@ html {
 .highlight {
   color: var(--primary-color);
 }
+.highlight-secondary {
+  color: var(--secondary-color);
+}
 
 @keyframes spin {
   from {

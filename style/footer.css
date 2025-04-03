@@ -35,36 +35,15 @@ footer {
 .footer-col p,
 .footer-col a {
   color: var(--text-color);
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
   display: block;
   text-decoration: none;
   transition: color 0.3s;
+  text-transform: uppercase;
 }
 
 .footer-col a:hover {
   color: var(--secondary-color);
-}
-
-.social-links {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1.5rem;
-}
-
-.social-icon {
-  color: white;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  transition: background-color 0.3s;
-}
-
-.social-icon:hover {
-  background-color: var(--primary-color);
 }
 
 .copyright {
