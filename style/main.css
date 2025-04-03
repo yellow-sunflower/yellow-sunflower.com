@@ -165,3 +165,21 @@ html {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 800px) {
+  .section-title h2 {
+    font-size: 2rem;
+  }
+  .section-title p {
+    font-size: 1.5rem;
+  }
+  .opensource-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .opensource-card h3 {
+    font-size: 1.6rem;
+  }
+  .opensource-card p {
+    font-size: 1.2rem;
+  }
+}
