@@ -22,11 +22,18 @@ function createWordChanger(
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  createWordChanger("changing-word-hero", ["commit", "package", "graphic"]);
+  createWordChanger("changing-word-hero", [
+    "commit",
+    "package",
+    "discussion",
+    "graphic",
+    "story",
+  ]);
   createWordChanger("changing-word-service", [
     "visualization",
     "science",
-    "design",
     "storytelling",
+    "analysis",
+    "automation",
   ]);
 });
