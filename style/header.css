@@ -5,7 +5,9 @@ header {
   position: fixed;
   width: 100%;
   z-index: 100;
-  transition: background-color 0.3s ease;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
 }
 
 .header-content {
@@ -25,7 +27,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #390606;
+  color: var(--text-color);
   font-weight: 500;
   font-size: 1.3em;
   position: relative;

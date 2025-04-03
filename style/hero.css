@@ -16,7 +16,6 @@
 
 .hero h1 {
   font-size: 6rem;
-  line-height: 0.95em;
   color: var(--text-color);
   text-align: center;
 }
