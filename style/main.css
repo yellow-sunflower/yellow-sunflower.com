@@ -50,6 +50,10 @@ html {
   gap: 2rem;
 }
 
+.opensource-grid a {
+  text-decoration: none;
+}
+
 .opensource-card {
   background-color: var(--secondary);
   padding: 2rem;
