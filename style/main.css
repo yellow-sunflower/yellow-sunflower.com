@@ -25,6 +25,12 @@ html {
   margin-bottom: 3rem;
 }
 
+.section-title p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2em;
+}
+
 .section-title h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -38,7 +44,7 @@ html {
   position: absolute;
   width: 60px;
   height: 3px;
-  background-color: var(--secondary);
+  background-color: var(--secondary-color);
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
@@ -55,7 +61,7 @@ html {
 }
 
 .opensource-card {
-  background-color: var(--secondary);
+  background-color: var(--secondary-color);
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
@@ -80,7 +86,7 @@ html {
 
 .opensource-icon {
   font-size: 2.5rem;
-  color: var(--secondary);
+  color: var(--secondary-color);
   margin-bottom: 1.5rem;
 }
 
@@ -94,4 +100,65 @@ html {
   line-height: 1.6;
   color: var(--text-color-light);
   font-style: italic;
+}
+
+.about {
+  padding: 6rem 0;
+  background-color: var(--light);
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.about-image {
+  flex: 1;
+  position: relative;
+}
+
+.about-image img {
+  width: 80%;
+  animation: spin 80s linear infinite;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.about-text h2::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: var(--background-primary-color);
+  bottom: -10px;
+  left: 0;
+}
+
+.about-text p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
