@@ -36,12 +36,13 @@
 
 @media (max-width: 800px) {
   .hero h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .hero p {
     font-size: 1.4rem;
   }
   .hero {
     height: 70vh;
+    margin-top: 5rem;
   }
 }

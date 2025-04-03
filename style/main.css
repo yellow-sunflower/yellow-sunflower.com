@@ -182,4 +182,7 @@ html {
   .opensource-card p {
     font-size: 1.2rem;
   }
+  .about-image {
+    display: none;
+  }
 }
