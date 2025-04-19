@@ -19,7 +19,7 @@ html {
 
 .opensource {
   padding: 6rem 0;
-  background-color: var(--background-primary-color);
+  background-color: var(--background-secondary-color);
 }
 
 .section-title {
@@ -158,10 +158,6 @@ html {
 
 .highlight-secondary {
   color: var(--secondary-color);
-}
-
-section.opensource {
-  background-color: var(--background-secondary-colo);
 }
 
 @keyframes spin {

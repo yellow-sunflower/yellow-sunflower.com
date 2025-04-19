@@ -23,7 +23,7 @@ function initParticles() {
         random: true,
       },
       size: {
-        value: 8,
+        value: 20,
         random: true,
       },
       move: {
