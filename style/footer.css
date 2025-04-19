@@ -1,7 +1,14 @@
 footer {
-  background-color: var(--background-primary-color);
-  padding-top: 15rem;
+  background-image: url("../img/background-sunflowers.jpg");
+  background-size: cover; /* or 'contain' */
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 5rem;
   padding-bottom: 3rem;
+}
+
+.footer-container {
+  margin-bottom: 15rem;
 }
 
 .footer-content {
@@ -48,8 +55,7 @@ footer {
 
 .copyright {
   text-align: center;
-  padding-top: 2rem;
-  margin-top: 2rem;
+  padding-top: 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: #aaa;
 }

@@ -1,3 +1,5 @@
+@import url("var.css");
+
 html {
   scroll-behavior: smooth;
 }
@@ -153,8 +155,13 @@ html {
 .highlight {
   color: var(--primary-color);
 }
+
 .highlight-secondary {
   color: var(--secondary-color);
+}
+
+section.opensource {
+  background-color: var(--background-secondary-colo);
 }
 
 @keyframes spin {

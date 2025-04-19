@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   createWordChanger("changing-word-hero", [
     "commit",
-    "package",
+    "project",
     "discussion",
     "graphic",
     "story",
