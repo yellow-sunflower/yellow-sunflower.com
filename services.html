@@ -4,6 +4,7 @@
     <title>🌻 Yellow Sunflower</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/services.css" />
     <link rel="stylesheet" href="style/particle.css" />
     <link rel="stylesheet" href="style/hero.css" />
     <link rel="stylesheet" href="style/header.css" />
@@ -28,90 +29,117 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
+    <section class="hero" id="services">
       <div class="container hero-content">
         <h1>Consulting and training</h1>
         <h1>
           for <span class="highlight-secondary">data</span>
-          <span class="highlight changing-word" id="changing-word-service"
-            >anything</span
-          >
+          <span class="word-wrapper" id="wrapper-changing-word-service">
+            <span class="highlight changing-word" id="changing-word-service"
+              >anything</span
+            >
+          </span>
         </h1>
         <p>Empowering people with data 🌻</p>
       </div>
-      <div class="particles" id="particles"></div>
     </section>
 
     <!-- Services Section -->
-    <section class="opensource" id="opensource">
+    <section class="services-section" id="services">
       <div class="container">
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>
-            Data science <b>should be</b> reproducible, beautiful and opened.
-            That's exactly what our softwares do.
-          </p>
+        <h2 class="section-title">Our Services</h2>
+
+        <!-- Data Visualization Service -->
+        <div class="service-item">
+          <div class="service-content">
+            <h3 class="service-title">Data Visualization</h3>
+            <p class="service-brief">
+              Transforming complex data into clear, compelling visual stories.
+            </p>
+          </div>
+          <div class="service-description">
+            <p>
+              Our data visualization expertise helps you communicate complex
+              information effectively. We specialize in:
+            </p>
+            <ul>
+              <li>Designing intuitive and impactful charts and graphs</li>
+              <li>Developing data-driven storytelling strategies</li>
+              <li>Building custom visualization solutions</li>
+            </ul>
+            <a href="#" class="service-link"
+              >Learn more about our visualization services</a
+            >
+          </div>
         </div>
-        <div class="opensource-grid">
-          <div class="opensource-card btn-shadow-drop--black">
-            <div class="opensource-icon">🎨</div>
-            <a
-              href="https://github.com/JosephBARBIERDARNAL/pypalettes"
-              target="_blank"
-            >
-              <h3>pypalettes</h3>
-            </a>
-            <p>A large (+2500) collection of color maps for Python</p>
+
+        <!-- Reproducible Data Analysis Service -->
+        <div class="service-item reverse">
+          <div class="service-content">
+            <h3 class="service-title">Reproducible Data Analysis</h3>
+            <p class="service-brief">
+              Building reliable data pipelines that ensure consistent,
+              verifiable results.
+            </p>
           </div>
-          <div class="opensource-card btn-shadow-drop--black">
-            <div class="opensource-icon">📝</div>
-            <a
-              href="https://github.com/JosephBARBIERDARNAL/pyfonts"
-              target="_blank"
+          <div class="service-description">
+            <p>
+              We create transparent, reproducible data analysis workflows that
+              you can trust:
+            </p>
+            <ul>
+              <li>Developing structured data processing pipelines</li>
+              <li>Implementing version control for data and code</li>
+              <li>Documenting analysis procedures for transparency</li>
+            </ul>
+            <a href="#" class="service-link"
+              >Explore our data analysis approach</a
             >
-              <h3>pyfonts</h3>
-            </a>
-            <p>A simple (and reproducible) way to load fonts for matplotlib</p>
           </div>
-          <div class="opensource-card btn-shadow-drop--black">
-            <div class="opensource-icon">🔃</div>
-            <a
-              href="https://github.com/JosephBARBIERDARNAL/drawarrow"
-              target="_blank"
-            >
-              <h3>drawarrow</h3>
-            </a>
-            <p>Drawing arrows for matplotlib made easy</p>
+        </div>
+
+        <!-- Software Development Service -->
+        <div class="service-item">
+          <div class="service-content">
+            <h3 class="service-title">Software Development</h3>
+            <p class="service-brief">
+              Custom R and Python packages tailored to your analytical needs.
+            </p>
           </div>
-          <div class="opensource-card btn-shadow-drop--black">
-            <div class="opensource-icon">🍭</div>
-            <a
-              href="https://github.com/JosephBARBIERDARNAL/morethemes"
-              target="_blank"
+          <div class="service-description">
+            <p>
+              We build specialized tools that enhance your data capabilities:
+            </p>
+            <ul>
+              <li>Creating Python and R packages for data science workflows</li>
+              <li>Building data processing and automation tools</li>
+              <li>Integrating with existing systems and workflows</li>
+            </ul>
+            <a href="#" class="service-link"
+              >Discover our software development expertise</a
             >
-              <h3>morethemes</h3>
-            </a>
-            <p>Beautiful themes inspired by famous newspaper for matplotlib</p>
           </div>
-          <div class="opensource-card btn-shadow-drop--black">
-            <div class="opensource-icon">📅</div>
-            <a
-              href="https://github.com/JosephBARBIERDARNAL/dayplot"
-              target="_blank"
-            >
-              <h3>dayplot</h3>
-            </a>
-            <p>Calendar heatmaps with matplotlib</p>
+        </div>
+
+        <!-- Training Service -->
+        <div class="service-item reverse">
+          <div class="service-content">
+            <h3 class="service-title">Training</h3>
+            <p class="service-brief">
+              Empowering your team with the skills to excel in data science.
+            </p>
           </div>
-          <div class="opensource-card btn-shadow-drop--black">
-            <div class="opensource-icon">🎬</div>
-            <a
-              href="https://github.com/JosephBARBIERDARNAL/gifing"
-              target="_blank"
-            >
-              <h3>gifing</h3>
-            </a>
-            <p>A lightweight python tool for creating GIFs</p>
+          <div class="service-description">
+            <p>
+              Our comprehensive training programs cover all aspects of modern
+              data science:
+            </p>
+            <ul>
+              <li>Customized workshops on R, Python, and other tools</li>
+              <li>Practical data visualization techniques</li>
+              <li>Best practices for reproducible research</li>
+            </ul>
+            <a href="#" class="service-link">View our training programs</a>
           </div>
         </div>
       </div>
