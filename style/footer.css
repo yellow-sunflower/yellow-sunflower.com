@@ -59,3 +59,13 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: #aaa;
 }
+
+@media (max-width: 800px) {
+  .footer-container {
+    margin-bottom: 25rem;
+  }
+  .copyright {
+    text-align: left;
+    font-size: 0.8rem;
+  }
+}
