@@ -7,10 +7,6 @@ function initParticles() {
     particles: {
       number: {
         value: 80,
-        density: {
-          enable: true,
-          value_area: 800,
-        },
       },
       color: {
         value: primaryColor,
@@ -23,16 +19,22 @@ function initParticles() {
         random: true,
       },
       size: {
-        value: 20,
+        value: 15,
         random: true,
       },
       move: {
         enable: true,
         speed: 0.5,
-        direction: "none",
         random: true,
         straight: false,
         out_mode: "out",
+      },
+      line_linked: {
+        enable: true,
+        distance: 100,
+        color: primaryColor,
+        opacity: 0.2,
+        width: 2,
       },
     },
     interactivity: {
