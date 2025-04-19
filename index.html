@@ -124,7 +124,7 @@
       <div class="container">
         <div class="about-content">
           <div class="about-image">
-            <img src="img/sunflower.png" alt="a beautiful yellow sunflower" />
+            <div id="sunflower-animation"></div>
           </div>
           <div class="about-text">
             <h2>Why <span class="highlight">Yellow Sunflower</span>?</h2>
@@ -215,6 +215,21 @@
 
     <!-- JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.2/lottie.min.js"></script>
+    <script>
+      lottie.loadAnimation({
+        container: document.getElementById("sunflower-animation"),
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "sunflower.json",
+        rendererSettings: {
+          preserveAspectRatio: "xMidYMid meet",
+          clearCanvas: false,
+          progressiveLoad: true,
+        },
+      });
+    </script>
     <script src="script/particle.js"></script>
     <script src="script/hero.js"></script>
   </body>
