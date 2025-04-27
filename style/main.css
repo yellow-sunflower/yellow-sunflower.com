@@ -169,12 +169,12 @@ html {
 
 .transition-one {
   height: 200px;
-  background: linear-gradient(to bottom, white, #ffc300);
+  background: linear-gradient(to bottom, white, var(--primary-color));
 }
 
 .transition-two {
   height: 200px;
-  background: linear-gradient(to bottom, #ffc300, white);
+  background: linear-gradient(to bottom, var(--primary-color), white);
 }
 
 @keyframes spin {
@@ -186,7 +186,7 @@ html {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
   .section-title h2 {
     font-size: 2rem;
   }
@@ -204,5 +204,22 @@ html {
   }
   .about-image {
     display: none;
+  }
+  .joseph-image img {
+    width: 150px;
+    height: 150px;
+  }
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .about-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
   }
 }
