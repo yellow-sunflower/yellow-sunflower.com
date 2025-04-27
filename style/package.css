@@ -1,7 +1,11 @@
-/* Services Section CSS */
-.services-section {
+/* package Section CSS */
+.package-section {
   padding: 80px 0;
-  background-color: #f8f9fa;
+  background-color: var(--primary-color);
+}
+
+.package-section a {
+  text-decoration: none;
 }
 
 .container {
@@ -13,9 +17,16 @@
 .section-title {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 60px;
-  color: #333;
+  color: var(--secondary-color);
   position: relative;
+}
+
+.section-description {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 .section-title:after {
@@ -29,64 +40,62 @@
   background-color: var(--secondary-color);
 }
 
-.service-item {
+.package-item {
   display: flex;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   background-color: #fff;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: -20px 25px 25px var(--secondary-color);
 }
 
-.service-item.reverse {
+.package-item.reverse {
   flex-direction: row-reverse;
+  box-shadow: 20px 25px 25px var(--secondary-color);
 }
 
-.service-content {
-  flex: 1;
+.package-content {
+  flex: 3;
   padding: 40px;
-  background-color: var(--secondary-color);
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.service-title {
+.package-title {
   color: var(--primary-color);
   font-size: 1.8rem;
-  margin-bottom: 20px;
   font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: var(--secondary-color);
 }
 
-.service-brief {
-  font-size: 1.1rem;
+.package-brief {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
   line-height: 1.6;
+  color: var(--secondary-color);
 }
 
-.service-description {
-  flex: 2;
-  padding: 40px;
+.package-description {
+  flex: 1;
+  padding: 20px;
 }
 
-.service-description p {
+.package-description p {
   margin-bottom: 20px;
   line-height: 1.6;
-  color: #555;
+  color: var(--primary-color);
 }
 
-.service-description ul {
-  padding-left: 20px;
-  margin-bottom: 20px;
+.package-logo {
+  width: 140px;
+  margin: 0 auto;
 }
 
-.service-description li {
-  margin-bottom: 10px;
-  line-height: 1.5;
-  color: #555;
-}
-
-.service-link {
+.package-link {
   display: inline-block;
   color: var(--primary-color);
   font-weight: 600;
@@ -95,18 +104,18 @@
   transition: border-color 0.3s ease;
 }
 
-.service-link:hover {
+.package-link:hover {
   border-color: var(--secondary-color);
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
-  .service-item,
-  .service-item.reverse {
+  .package-item,
+  .package-item.reverse {
     flex-direction: column;
   }
 
-  .service-content {
+  .package-content {
     text-align: center;
   }
 
