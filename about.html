@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yellow Sunflower</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/particle.css" />
+    <link rel="stylesheet" href="style/hero.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container header-content">
+        <nav>
+          <ul id="navMenu">
+            <li>
+              <a href="index.html"
+                ><span class="highlight">Yellow</span>
+                <span class="highlight-secondary">Sunflower</span></a
+              >
+            </li>
+            <li><a href="index.html#opensource">Open Source</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="about" id="about" style="margin-top: 5rem">
+      <div class="container" style="max-width: 1000px">
+        <div class="about-content">
+          <div class="joseph-image">
+            <img src="/img/joseph.png" />
+          </div>
+          <div class="about-text">
+            <h2 style="text-align: right">
+              <span
+                style="display: inline-block; border-bottom: 6px solid #ffc300"
+              >
+                <span class="highlight">Yellow</span>
+                <span class="highlight-secondary">Sunflower</span>
+              </span>
+            </h2>
+            <p>
+              Hi! I'm Joseph, and <span class="highlight">Yellow</span>
+              <span class="highlight-secondary">Sunflower</span> is where I
+              create open source tools and provide consulting services. You can
+              learn more about me on my
+              <a href="https://barbierjoseph.com/" target="_blank"
+                >personal website</a
+              >.
+            </p>
+            <p>
+              My primary focus is to increase the weight people give to design
+              and storytelling in data science. There already are
+              <a href="./index.html#opensource">multiple projects</a> that you
+              can benefit from.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="transition-one"></div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-container">
+        <hr />
+        <br />
+        <br />
+        <div class="footer-content">
+          <div class="footer-col">
+            <h3>
+              <span class="highlight-secondary">Yellow</span>
+              <span class="highlight-secondary">Sunflower</span> 🌻
+            </h3>
+            <p>Design-minded tools for data people</p>
+            <a href="" target="_blank"
+              ><i class="fa fa-github" style="font-size: 36px"></i
+            ></a>
+          </div>
+          <div class="footer-col">
+            <h3>Open source</h3>
+            <a
+              href="https://github.com/JosephBARBIERDARNAL/pypalettes"
+              target="_blank"
+              >pypalettes</a
+            >
+            <a
+              href="https://github.com/JosephBARBIERDARNAL/pyfonts"
+              target="_blank"
+              >pyfonts</a
+            >
+            <a
+              href="https://github.com/JosephBARBIERDARNAL/drawarrow"
+              target="_blank"
+              >drawarrow</a
+            >
+            <a
+              href="https://github.com/JosephBARBIERDARNAL/morethemes"
+              target="_blank"
+              >morethemes</a
+            >
+            <a
+              href="https://github.com/JosephBARBIERDARNAL/dayplot"
+              target="_blank"
+              >dayplot</a
+            >
+          </div>
+          <div class="footer-col">
+            <h3>Services</h3>
+            <a href="#">Data Visualization</a>
+            <a href="#">Reproducible analysis</a>
+            <a href="#">Package development</a>
+            <a href="#">Training</a>
+          </div>
+          <div class="footer-col">
+            <h3>Contact</h3>
+            <p>hello@yellow-sunflower.com</p>
+            <p>France</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Yellow Sunflower. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.2/lottie.min.js"></script>
+    <script>
+      lottie.loadAnimation({
+        container: document.getElementById("sunflower-animation"),
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "sunflower.json",
+        rendererSettings: {
+          preserveAspectRatio: "xMidYMid meet",
+          clearCanvas: false,
+          progressiveLoad: true,
+        },
+      });
+    </script>
+    <script src="script/particle.js"></script>
+    <script src="script/hero.js"></script>
+  </body>
+</html>
