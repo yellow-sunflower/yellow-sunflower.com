@@ -1,5 +1,7 @@
 @import url("var.css");
 
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 .hero {
   height: 100vh;
   display: flex;
@@ -13,13 +15,20 @@
   width: 100%;
   position: relative;
   z-index: 2;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(5px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(5px); /* For Safari support */
+  padding: 1rem;
 }
 
 .hero h1 {
-  font-size: 6rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 5rem;
   color: var(--text-color);
   text-align: center;
-  margin: 0.5rem 0;
+  margin: 0.3rem 0;
+  text-transform: uppercase;
+  word-spacing: 0.8rem;
 }
 
 .hero p {
@@ -27,20 +36,21 @@
   font-size: 2rem;
   color: var(--text-color);
   text-align: center;
+  font-weight: 200;
 }
 
 .word-wrapper {
   display: inline-block;
   position: relative;
   overflow: hidden;
-  transition: width 0.5s ease-in-out;
+  transition: width 0.8s ease-in-out;
   vertical-align: bottom;
 }
 
 .changing-word {
   display: inline-block;
   white-space: nowrap;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
 }
 
 .fade-out {

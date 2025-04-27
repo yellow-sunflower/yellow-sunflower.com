@@ -6,7 +6,7 @@ function initParticles() {
   particlesJS("particles", {
     particles: {
       number: {
-        value: 80,
+        value: 100,
       },
       color: {
         value: primaryColor,

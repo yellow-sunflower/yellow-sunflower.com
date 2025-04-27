@@ -1,14 +1,6 @@
 footer {
-  background-image: url("../img/background-sunflowers-upscaled.png");
-  background-size: cover; /* or 'contain' */
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 5rem;
-  padding-bottom: 3rem;
-}
-
-.footer-container {
-  margin-bottom: 15rem;
+  background-color: var(--background-secondary-color);
+  padding: 2rem;
 }
 
 .footer-content {
@@ -34,7 +26,7 @@ footer {
   position: absolute;
   width: 40px;
   height: 2px;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   bottom: -8px;
   left: 0;
 }
@@ -46,7 +38,6 @@ footer {
   display: block;
   text-decoration: none;
   transition: color 0.3s;
-  text-transform: uppercase;
 }
 
 .footer-col a:hover {
@@ -55,9 +46,8 @@ footer {
 
 .copyright {
   text-align: center;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  color: #aaa;
+  padding-top: 2rem;
+  color: #686868;
 }
 
 @media (max-width: 800px) {

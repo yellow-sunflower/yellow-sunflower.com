@@ -22,10 +22,11 @@
           <ul id="navMenu">
             <li>
               <a href="index.html"
-                ><span class="highlight">Yellow Sunflower</span></a
+                ><span class="highlight">Yellow</span>
+                <span class="highlight-secondary">Sunflower</span></a
               >
             </li>
-            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="#opensource">Open Source</a></li>
             <li><a href="services.html">Services</a></li>
           </ul>
         </nav>
@@ -35,30 +36,31 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
       <div class="container hero-content">
-        <h1>Growing data science,</h1>
         <h1>
-          <span class="highlight-secondary">one</span>
+          <span class="highlight">Design-minded</span>
+          <span class="highlight-secondary">tools</span> for data people
+        </h1>
+        <p>
+          growing data science, <span class="highlight-secondary">one</span>
           <span class="word-wrapper" id="wrapper-changing-word-hero">
             <span class="highlight changing-word" id="changing-word-hero"
               >project</span
             >
           </span>
           at a time
-        </h1>
-        <p>Open source tools that empower data people 🌻</p>
+        </p>
       </div>
       <div class="particles" id="particles"></div>
     </section>
+
+    <div class="transition-one" id="opensource"></div>
 
     <!-- Opensource Section -->
     <section class="opensource" id="opensource">
       <div class="container">
         <div class="section-title">
           <h2>Open source</h2>
-          <p>
-            Data science <b>should be</b> reproducible, beautiful and opened.
-            That's exactly what our softwares do.
-          </p>
+          <p>Let's make data science beautiful and reproducible.</p>
         </div>
         <div class="opensource-grid">
           <div class="opensource-card btn-shadow-drop--black">
@@ -111,19 +113,11 @@
             </a>
             <p>Calendar heatmaps with matplotlib</p>
           </div>
-          <div class="opensource-card btn-shadow-drop--black">
-            <div class="opensource-icon">🎬</div>
-            <a
-              href="https://github.com/JosephBARBIERDARNAL/gifing"
-              target="_blank"
-            >
-              <h3>gifing</h3>
-            </a>
-            <p>A lightweight python tool for creating GIFs</p>
-          </div>
         </div>
       </div>
     </section>
+
+    <div class="transition-two" id="about"></div>
 
     <section class="about" id="about">
       <div class="container">
@@ -131,8 +125,15 @@
           <div class="about-image">
             <div id="sunflower-animation"></div>
           </div>
-          <div class="about-text">
-            <h2>Why <span class="highlight">Yellow Sunflower</span>?</h2>
+          <div class="about-text" style="text-align: right">
+            <h2>
+              <span
+                style="display: inline-block; border-bottom: 4px solid #ffc300"
+              >
+                <span class="highlight">Yellow</span>
+                <span class="highlight-secondary">Sunflower</span>
+              </span>
+            </h2>
             <p>
               At Yellow Sunflower, we believe in growth, resilience, and
               following the light of innovation—just like our namesake. We bring
@@ -156,6 +157,13 @@
       </div>
     </section>
 
+    <div
+      style="
+        height: 200px;
+        background: linear-gradient(to bottom, white, #ffc300);
+      "
+    ></div>
+
     <!-- Footer -->
     <footer>
       <div class="container footer-container">
@@ -164,8 +172,11 @@
         <br />
         <div class="footer-content">
           <div class="footer-col">
-            <h3>Yellow Sunflower 🌻</h3>
-            <p>Open source tools that empower data people</p>
+            <h3>
+              <span class="highlight-secondary">Yellow</span>
+              <span class="highlight-secondary">Sunflower</span> 🌻
+            </h3>
+            <p>Design-minded tools for data people</p>
             <a href="" target="_blank"
               ><i class="fa fa-github" style="font-size: 36px"></i
             ></a>
@@ -197,11 +208,6 @@
               target="_blank"
               >dayplot</a
             >
-            <a
-              href="https://github.com/JosephBARBIERDARNAL/gifing"
-              target="_blank"
-              >gifing</a
-            >
           </div>
           <div class="footer-col">
             <h3>Services</h3>
@@ -222,7 +228,6 @@
       </div>
     </footer>
 
-    <!-- JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.2/lottie.min.js"></script>
     <script>

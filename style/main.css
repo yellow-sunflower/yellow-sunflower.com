@@ -8,7 +8,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Urbanist", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 .container {
@@ -18,7 +18,7 @@ html {
 }
 
 .opensource {
-  padding: 6rem 0;
+  padding: 2rem 0;
   background-color: var(--background-secondary-color);
 }
 
@@ -158,6 +158,16 @@ html {
 
 .highlight-secondary {
   color: var(--secondary-color);
+}
+
+.transition-one {
+  height: 200px;
+  background: linear-gradient(to bottom, white, #ffc300);
+}
+
+.transition-two {
+  height: 200px;
+  background: linear-gradient(to bottom, #ffc300, white);
 }
 
 @keyframes spin {
